@@ -1,0 +1,21 @@
+{
+  "name": "OAuth Tutorial",
+  "version": "1.0",
+  "description": "Google'ın Kişiler API'sine bağlanmak ve kişilerin fotoğraflarını görüntülemek için OAuth'u kullanır.",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "FriendBlock, friends face's in a block."
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+
+
+  "permissions": ["identity"],
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmjvncmaGhb4TKsDl2DHsyt+AAQ/kpMFhz8J6RgDAfKKbDDntsIIZynrOn6gB1QrZcexyCHjJANF0w7q4klimkimWcqpdd1PxWnYXlO0NSbg+CxzxAs0CxKm0Ljbd9BbR409wlZK09tSOBLLIJvU3fMEKOFKzO27Mu+QeqszP9P+aM91FADP95prtv1LMefSXtQDymWDsOmmDxhCuuiLnjzyYrSf9KqXXppTKDffAXycJRaxi8n3vog+nWW/oChqA9Om9h2dwHbm2S4/CAhLkaG7oAEXNmYaqLnrfmZ7QTqAyDvZnkw3FTuVseHu1lPU4//ej5uYz+m1RzKXxinxCFQIDAQAB",
+
+  "oauth2": {
+    "client_id": "379405892764-uf82a8fidu2ms8vg27i5s234ni46ln6i.apps.googleusercontent.com",
+    "scopes":["https://www.googleapis.com/auth/contacts.readonly"]
+  }
+}
